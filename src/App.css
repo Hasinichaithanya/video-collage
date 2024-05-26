@@ -1,0 +1,45 @@
+.main-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div input,
+select {
+  margin: 10px;
+}
+input::file-selector-button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #43c7f8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  padding: 13px;
+  box-shadow: 1px 1px 1px 0px black;
+}
+select {
+  padding: 7px;
+  width: 100px;
+  border-radius: 10px;
+}
+.video-container {
+  position: "relative";
+  width: "320px";
+  height: "240px";
+}
